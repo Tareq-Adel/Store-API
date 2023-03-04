@@ -26,7 +26,7 @@ app.use(notFoundMiddleware);
 app.use(errorMiddleware);
 
 const port = 3000;
-// process.env.PORT ||
+// process.env.PORT || 3000
 const start = async () => {
 	try {
 		await connectDB();
